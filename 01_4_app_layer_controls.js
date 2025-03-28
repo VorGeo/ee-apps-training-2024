@@ -4,7 +4,7 @@
  * STEP 4, Adding layer controls
  * 
  * @author Gennadii Donchyts (dgena@google.com)
- * @author Tyler Erickson (tylere@google.com)
+ * @author Tyler Erickson (tyler@vorgeo.com)
  */
 
 /*******************************************************************************

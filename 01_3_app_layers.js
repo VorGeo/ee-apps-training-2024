@@ -4,7 +4,7 @@
  * STEP 3, Add layer images to the map.
  * 
  * @author Gennadii Donchyts (dgena@google.com)
- * @author Tyler Erickson (tylere@google.com)
+ * @author Tyler Erickson (tyler@vorgeo.com)
  */
 
 /*******************************************************************************

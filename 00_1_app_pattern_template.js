@@ -9,7 +9,7 @@
  *
  * Source: https://code.earthengine.google.com/bab500e5290d579f8d5f1cc5715314cf
  * 
- * @author Tyler Erickson (tylere@google.com)
+ * @author Tyler Erickson (tyler@vorgeo.com)
  * @author Justin Braaten (braaten@google.com)
  */
 

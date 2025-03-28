@@ -4,7 +4,7 @@
  * STEP 5: Building layer legend based on layer type
  * 
  * @author Gennadii Donchyts (dgena@google.com)
- * @author Tyler Erickson (tylere@google.com)
+ * @author Tyler Erickson (tyler@vorgeo.com)
  */
 
 /*******************************************************************************
