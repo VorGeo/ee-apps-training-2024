@@ -478,23 +478,6 @@ c.Logger.prototype.setMaxCount = function(maxCount) {
 };
 
 /*******************************************************************************
- * Composition *
- ******************************************************************************/
-
-Map.addLayer(
-    m.forest_baseline,
-    s.visForestBaseline,
-    'Forest baseline');
-Map.addLayer(
-    m.radd_alert.select('Alert'),
-    s.visAlertConfidence,
-    'RADD alert');
-Map.addLayer(
-    m.radd_alert.select('Date'),
-    s.visAlertDate,
-    'RADD alert date');
-
-/*******************************************************************************
  * Behaviors *
  ******************************************************************************/
 
