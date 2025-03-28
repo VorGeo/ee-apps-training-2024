@@ -4,7 +4,7 @@
  * STEP 6: Building layer legend controls based on layer type
  * 
  * @author Gennadii Donchyts (dgena@google.com)
- * @author Tyler Erickson (tylere@google.com)
+ * @author Tyler Erickson (tyler@vorgeo.com)
  */
 
 /*******************************************************************************
