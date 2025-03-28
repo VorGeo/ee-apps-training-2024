@@ -216,7 +216,6 @@ c.buildLayerControlsPanel = function(layerInfo) {
      layerOpacitySlider
     ], 
     ui.Panel.Layout.Flow('horizontal'), {
-      // border: '1px solid red',
       width: '200px'
     });
 };
@@ -238,12 +237,12 @@ c.buildLayerPanel = function(layerInfo) {
 c.layersPanel = ui.Panel(m.layerInfos.map(c.buildLayerPanel));
 
 c.buildLayerInspectionPanel = function() {
-  App.clickedPointLabel = ui.Label('Click on the map to query alert date -->');
+  c.clickedPointLabel = ui.Label('Click on the map to query alert date -->');
   
-  App.clickedPointLayer = ui.Map.Layer(ee.FeatureCollection([]), { color: 'yellow' }, 'clicked point');
-  Map.layers().add(App.clickedPointLayer);
+  c.clickedPointLayer = ui.Map.Layer(ee.FeatureCollection([]), { color: 'yellow' }, 'clicked point');
+  Map.layers().add(c.clickedPointLayer);
   
-  return App.clickedPointLabel;
+  return c.clickedPointLabel;
 };
 
 c.buildUI = function() { 

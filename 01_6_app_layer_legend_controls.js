@@ -203,7 +203,6 @@ c.buildLayerControlsPanel = function(layerInfo) {
      layerOpacitySlider
     ], 
     ui.Panel.Layout.Flow('horizontal'), {
-      // border: '1px solid red',
       width: '200px'
     });
 };

@@ -45,7 +45,7 @@ m.layerInfos = [
       description: '',
       image: m.getAlertDate(),
       legend: {
-        type: 'continuous',
+        type: 'gradient',
         palette: ["ffffcc", "ffeda0", "fed976", "feb24c", "fd8d3c", "fc4e2a", "e31a1c", "bd0026", "800026"],
         min: 20000,
         max: 24000

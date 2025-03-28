@@ -220,7 +220,6 @@ c.buildLayerControlsPanel = function(layerInfo) {
      layerOpacitySlider
     ], 
     ui.Panel.Layout.Flow('horizontal'), {
-      // border: '1px solid red',
       width: '200px'
     });
 };
@@ -256,8 +255,7 @@ c.buildUI = function() {
       c.infoPanel,
       c.layersPanel,
       c.buildLayerInspectionPanel(),
-      c.buildLayerInspectionPanel(),
-      c.buildHisogramPanel()
+      c.buildHistogramPanel()
     ],
     ui.Panel.Layout.flow('vertical'),
     s.panelLeft
@@ -288,7 +286,7 @@ c.addMapLayers = function() {
     });
 };
 
-c.buildHisogramPanel = function() {
+c.buildHistogramPanel = function() {
   var panel = ui.Panel([]);
   
   function updateHistogram() {
