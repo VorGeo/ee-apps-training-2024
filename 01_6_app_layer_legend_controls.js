@@ -176,9 +176,7 @@ c.buildLayerLegendPanel = function(layerInfo) {
     'gradient': createLayerLegendGradient,
     'discrete': createLayerLegendDiscrete
   };
-  
-  print(layerInfo.legend.type);
-  
+    
   return legendBuilders[layerInfo.legend.type](layerInfo);
 };
 

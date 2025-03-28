@@ -194,8 +194,6 @@ c.buildLayerLegendPanel = function(layerInfo) {
     'discrete': createLayerLegendDiscrete
   };
   
-  print(layerInfo.legend.type);
-  
   return legendBuilders[layerInfo.legend.type](layerInfo);
 };
 
