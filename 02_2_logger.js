@@ -24,7 +24,7 @@ function Logger(delay) {
   this.maxCount = 5;
   
   Map.widgets().add(this.panel);
-}
+};
 
 // Add a prototype function that displays a message.
 Logger.prototype.info = function(message, color) {
