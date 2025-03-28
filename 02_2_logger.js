@@ -1,3 +1,5 @@
+// Copyright 2024 Google LLC
+
 /*
  * This script demonstrates the use of in creating a Logger widget.
  *

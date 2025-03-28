@@ -1,4 +1,9 @@
-// Demonstrate the use of Javascript prototypes
+// Copyright 2024 Google LLC
+
+/*
+ * This script demonstrates the use of Javascript prototypes
+ *
+ */
 
 function Person(name, surname, location) {
   this.name = name
